@@ -37,7 +37,15 @@ namespace PostgreSql.API.Data
 
                 // Rename Table Drivers to F1Drivers
                 driver.ToTable("F1Drivers");
+
+                // Add a comment to the table Driver
+
+                driver.ToTable(t => t.HasComment("This is a model for F1 Drivers to manage their Team and Media"));
             });
+
+
+            // Add a comment to the table Team
+            modelBuilder.Entity<Team>().ToTable(t => t.HasComment("This is a model for F1 Teams to manage their Drivers"));
         }
     }
 }
