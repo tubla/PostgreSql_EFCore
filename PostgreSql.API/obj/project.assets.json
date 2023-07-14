@@ -1294,11 +1294,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning\\DotnetCore\\WithPostgreSql\\PostgreSql.API\\PostgreSql.API\\PostgreSql.API.csproj",
+      "projectUniqueName": "D:\\Learning\\DotnetCore\\WithPostgreSql\\PostgreSql_EFCore\\PostgreSql.API\\PostgreSql.API.csproj",
       "projectName": "PostgreSql.API",
-      "projectPath": "D:\\Learning\\DotnetCore\\WithPostgreSql\\PostgreSql.API\\PostgreSql.API\\PostgreSql.API.csproj",
+      "projectPath": "D:\\Learning\\DotnetCore\\WithPostgreSql\\PostgreSql_EFCore\\PostgreSql.API\\PostgreSql.API.csproj",
       "packagesPath": "C:\\Users\\RAHUL\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning\\DotnetCore\\WithPostgreSql\\PostgreSql.API\\PostgreSql.API\\obj\\",
+      "outputPath": "D:\\Learning\\DotnetCore\\WithPostgreSql\\PostgreSql_EFCore\\PostgreSql.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\RAHUL\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PF6MyOY7pGapdxHRqjHigp1cDBOYipsa9WCX6sy2zrAzegcC3gdorhpQRsiC9xnUlwj+r+sPBVhtTw7XORGFpw==",
+  "dgSpecHash": "K9g8JOojxxoQCzpu5U/mZhpiP1asod/GV8Q4ds5mBVNRYA4oD1LQ3Wh5gXVUWA6MeNS0RX4bdlp5qqJiTB0LGg==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\DotnetCore\\WithPostgreSql\\PostgreSql.API\\PostgreSql.API\\PostgreSql.API.csproj",
+  "projectFilePath": "D:\\Learning\\DotnetCore\\WithPostgreSql\\PostgreSql_EFCore\\PostgreSql.API\\PostgreSql.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAHUL\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\RAHUL\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",

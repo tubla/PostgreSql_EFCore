@@ -32,9 +32,11 @@ namespace PostgreSql.API.Data
                 // 1 - 1
                 driver.HasOne(dm => dm.DriverMedia)
                       .WithOne(d => d.Driver)
-                      .HasForeignKey<DriverMedia>(dm => dm.DriverId)
-                      .OnDelete(DeleteBehavior.Restrict)
-                      .HasConstraintName("FK_Driver_DriverMedia");
+                      .HasForeignKey<DriverMedia>(dm => dm.DriverId); // Here EF will add a constraint name by default and default delete behaviour
+                                                                      // .OnDelete(DeleteBehavior.Cascade) will also be added 
+
+                // Rename Table Drivers to F1Drivers
+                driver.ToTable("F1Drivers");
             });
         }
     }
